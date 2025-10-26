@@ -1,5 +1,5 @@
 const ProfileData = {
-  img: require("../assets/Images/female.jpg"),
+  img: require("../assets/Images/female.png"),
   logo: require("../assets/Images/Name.png"),
   name: "Kazuya Carter",
   professions: ["full stack developer", "AI Engineer"],
