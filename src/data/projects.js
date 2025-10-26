@@ -1,6 +1,6 @@
 import { BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoWordpress, BiLogoTailwindCss, BiLogoTypescript, BiLogoShopify, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoAngular } from "react-icons/bi";
 import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
-import { SiThemoviedatabase, SiExpress, SiSupabase, SiNestjs } from "react-icons/si";
+import { SiThemoviedatabase, SiExpress, SiSupabase, SiNestjs, SiReact, SiOpenai, SiNextdotjs, SiTensorflow, SiMongodb, SiWhatsapp } from "react-icons/si";
 
 const ProjectsData = [
   {
@@ -110,6 +110,33 @@ const ProjectsData = [
     description: "A financial services site in Adelaide offering mortgage broking and lending solutions with resources and guides for clients.",
     github: "",
     demo: "https://rasfinance.com.au/",
+  },
+  {
+    id: "13",
+    name: "Genie",
+    image: "./trygenie.png",
+    icons: [ SiReact, BiLogoTypescript, BiLogoTailwindCss, SiNestjs],
+    description: "Genie is an open-source AI assistant chatbot integrating multiple language models, offering advanced reasoning, dark mode, markdown rendering, and a credit-based system for interactive conversations.",
+    github: "",
+    demo: "https://trygenie.xyz/",
+  },
+  {
+    id: "14",
+    name: "Online Chatbot-Based Ticketing System",
+    image: "./chatticket.png",
+    icons: [ SiReact, BiLogoTypescript, BiLogoTailwindCss, SiNestjs],
+    description: "AI-powered museum ticketing system with intelligent chatbot integration, real-time analytics, and modern React frontend",
+    github: "",
+    demo: "https://chatticket.vercel.app/",
+  },
+  {
+    id: "15",
+    name: "Appointment scheduling systems",
+    image: "./quical.png",
+    icons: [ SiOpenai, SiWhatsapp, SiNextdotjs, BiLogoTailwindCss, SiTensorflow, SiMongodb],
+    description: "streamline the booking process for businesses and their clients",
+    github: "",
+    demo: "https://quical.io/",
   },
 ];
 
